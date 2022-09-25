@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    
+
+    .homeContainer{
+        flex: 4;
+        
+        .widgets{
+            padding :1.2rem;
+            display: flex;
+            flex-wrap: wrap;
+            gap : 1.5rem;
+        }
+
+
+        .charts{
+            padding: 1.2rem;
+            display: flex;
+            flex-wrap: wrap ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+
+    
+    
+    }
+}
+
+
+@media (max-width: 1120px) {
+
+    .charts{
+        flex-direction: column;
+
+        
+    }
+
+    
+    
+
+
+}
